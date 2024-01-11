@@ -1,0 +1,53 @@
+.contactFormgroup {
+    position: relative;
+   }
+   
+   .contactForminput {
+    font-size: 0.8rem;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #515151;
+    background: transparent;
+    color: #FFD54F;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+   }
+   
+   .contactForminput:focus {
+    outline: none;
+   }
+   
+   label {
+    color: #EAEDED;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    font-weight: bold  ;
+   }
+   
+   .contactForminput:focus ~ label, .contactForminput:valid ~ label {
+    top: -20px;
+    font-size: 1.1rem;
+    color: #EAECEE;
+    font-weight: bold;
+   }
+   
+   .bar {
+    position: relative;
+    display: block;
+    width: 100%;   
+   }
+   .contactFormgroup button{
+   font-weight: bold;
+   font-size: 0.9rem;
+   }
+   
+   

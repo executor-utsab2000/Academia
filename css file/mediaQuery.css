@@ -1,0 +1,81 @@
+/* top bg */
+@media (max-width:1199px) {
+  .top_bg {
+    height: 110vh;
+  }
+}
+
+@media (max-width:992px) {
+  .top_bg {
+    height: 125vh;
+  }
+}
+
+@media (max-width:469px) {
+  .top_bg {
+    height: 135vh;
+  }
+}
+
+@media (max-width:441px) {
+  .top_bg {
+    height: 140vh;
+  }
+}
+
+@media (max-width:409px) {
+  .top_bg {
+    height: 145vh;
+  }
+}
+
+@media (max-width:369px) {
+  .top_bg {
+    height: 150vh;
+  }
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+
+@media (max-width:992px) {
+  .facilitiesImg {
+    height: 20rem;
+  }
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* animation2 background */ 
+
+@media (max-width:991.5px) {
+  .animation2{
+   min-height: 25rem;
+  }
+}
+
+@media (max-width:767.5px) {
+  .animation2{
+  min-height: 35rem;
+  }
+}
+
+
+@media (max-width:991.5px) {
+  .modalInputStyle{
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width:990px) {
+  .footerBgImg{
+    height: 70rem !important;
+  }
+  
+}
+@media (max-width:1400px) {
+  .footerBgImg{
+    height: 35rem;
+  }
+  
+}

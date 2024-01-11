@@ -1,0 +1,663 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #EAECEE   ;
+}
+
+body::-webkit-scrollbar{
+    background: #D5D8DC;
+    width: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #78909C;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #2C3E50; 
+    height: 10rem;/* creates border around scroll thumb */
+  }
+
+
+.companyName {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.companyTagLine {
+    color: white;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.tableTiming {
+    font-weight: bold;
+    color: white;
+}
+
+.tableTiming td {
+    border: none !important;
+    padding: none !important;
+    margin: none !important;
+}
+
+.timingDay {
+    font-size: 1rem;
+    word-wrap: none;
+}
+
+.tmingTime {
+    font-size: 0.6rem;
+    word-wrap: none;
+}
+
+.tableSocials td {
+    border: none !important;
+    padding: none !important;
+    margin: none !important;
+}
+
+.socialDimensionsTop {
+    font-size: 2rem;
+    background-color: transparent;
+    padding: 0.1rem 0.2rem;
+    color: black;
+}
+
+/* ***************************************** */
+
+.welcomeTxt {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+}
+
+.txt2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.txt3 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+.btnKnowMore {
+    font-weight: 800;
+    background-color: white;
+    border: #EEEEEE 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: .7rem 1.3rem;
+
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+
+.facilitiesImg {
+    width: 42vw;
+    border-radius: 10px;
+    height: 97%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    max-width: 630px;
+    min-width: 260px;
+}
+
+.headerSmall {
+    color: #B2BAB8;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+.headerBig {
+    letter-spacing: 2px;
+    line-height: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5F6A6A;
+}
+
+.facilitiesRightTab {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.facilitiesRightTab:hover {
+    background-color: #5F6A6A;
+    transform: scale(1.05);
+}
+
+.facilitiesRightTab:hover .facilitiesRightHeader {
+    color: black;
+}
+
+
+.facilitiesRightTab table td {
+    border: none
+}
+
+.failitiesRightLogo {
+    height: 5rem;
+    min-width: 6rem !important;
+    min-width: 5rem;
+    padding: 5px;
+}
+
+.facilitiesRightHeader {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #7F8C8D;
+    letter-spacing: 2px;
+}
+
+.facilitiesRightDesc {
+    font-size: .8rem;
+    font-weight: 500;
+    color: #ABB2B9;
+    letter-spacing: 1px;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+.animation2 {
+    display: grid;
+    place-items: center;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(../animation2/f4e8f036a95dfba60da7a94c51f7c1b9.jpg);
+    height: 20rem;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: Animation2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Animation2 {
+    0% {
+        background-image: url("../animation2/f4e8f036a95dfba60da7a94c51f7c1b9.jpg");
+    }
+
+    20% {
+        background-image: url("../animation2/124493.jpg");
+    }
+
+    40% {
+        background-image: url("../animation2/285503.jpg");
+    }
+
+    60% {
+        background-image: url("../animation2/551b7c94a63cab7130122c9013953a95.jpg");
+    }
+
+    80% {
+        background-image: url("../animation2/d65f5d129b0dab01780719468c703988.jpg");
+    }
+
+    100% {
+        background-image: url("../animation2/bg-2.jpg");
+    }
+
+}
+
+.blackBgAnimation2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    opacity: 0.70;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* left: 0 !important; */
+    height: 100%;
+    width: 100vw;
+    /* z-index: 2; */
+}
+
+.animation2ContentDiv {
+    left: 0 !important;
+    /* background-color: aqua;  */
+    width: 100%;
+    color: white;
+    position: absolute;
+}
+
+.animation2 table td {
+    color: white;
+    border: none !important;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.animation2ContentLogo {
+    max-height: 5rem;
+    max-width: 5rem;
+}
+
+.animation2txt1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+
+.featuredCourseCarauselBtn {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.featuredCoursesImg {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    /* border: 2px black solid; */
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.featuredCoursesHeader {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #37474F;
+    letter-spacing: 1px;
+}
+
+.courseRating {
+    color: #FFDF00;
+    font-weight: bold;
+    font-size: .6rem;
+}
+
+.courseTeachers {
+    font-size: 1.2rem;
+    color: #78909C;
+    font-weight: bold;
+}
+
+.courseTeacherNumber {
+    font-weight: bold;
+    /* font-size: 0.9rem; */
+    color: #90A4AE;
+}
+
+.courseDetailsSubHeader {
+    font-size: 1rem;
+    color: #5F6A6A;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.courseDetailsFigures {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #7F8C8D;
+    letter-spacing: 1px;
+}
+
+.CourseFee {
+    color: #FFDF00;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #ABB2B9;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0.5rem 1.3rem;
+    border-radius: 10px;
+
+}
+
+.EnrollCoursesbtn {
+    font-size: 1.2rem;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+.rightFeaturedCourses td {
+    border-bottom: none;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.modelDimension {
+    border-radius: 20px;
+    background-color: #EAECEE;
+}
+
+.modelTitle {
+    font-size: 2rem !important;
+}
+
+.EnrollFormTable td {
+    text-align: left;
+    border: none !important;
+    padding: 1rem 2rem;
+}
+
+.modalRegisterHeader {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.modalInputStyle {
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0.6rem;
+    border-bottom: #37474F 2px solid;
+    background-color: transparent;
+    color: red;
+    letter-spacing: 1px;
+}
+
+.modal-header {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.btnEnrollModal {
+    border-width: 3px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+/* all courses */
+.allCoursesGroups {
+    font-size: 1rem;
+    font-weight: bold;
+    /* transition: ; */
+}
+
+.allCourseCard {
+    font-weight: bold;
+    font-size: 0.6rem;
+    height: 10rem;
+    width: 9rem;
+    border-radius: 15px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: .5s;
+}
+
+.allCourseCard:hover {
+    transform: scale(1.1);
+    background-color: #90A4AE;
+}
+
+.allCourseCard img {
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.showCourseCard {
+    display: none !important;
+    /* background-color: #FFDF00 !important; */
+}
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* teachers */
+
+.teacherCard {
+    max-width: 9rem;
+    min-width: 9rem;
+    height: 15rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    border-radius: 10px;
+}
+
+.teacherCard img {
+    height: 9rem;
+    border-radius: 10px;
+    width: 100%;
+    padding: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.teacherName {
+    font-size: 1rem;
+}
+
+.teacherTitle {
+    font-size: 0.8rem;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* student */
+
+
+/* Review{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+} */
+
+.ReviewImage,
+.ReviewQuote {
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.ReviewImage img {
+    height: 8rem;
+    width: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.studentName {
+    font-size: 1.1rem;
+}
+
+.StudentCourse {
+    font-size: 0.8rem;
+}
+
+.ReviewQuote {
+    font-size: 0.8rem;
+    word-spacing: 1px;
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+.aboutUsImg {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.aboutUsDesc {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* -----------------------------------------------------------------------------------  */
+/* ----------------------------------------------------------------------------------- */
+
+
+.certificateTxt {
+    font-size: 0.9rem;
+    font-weight: bold
+}
+
+.certificateImg {
+    width: 100%;
+    height: 70%;
+}
+
+.certificateImg img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* -----------------------------------------------------------------------------------  */
+/* ----------------------------------------------------------------------------------- */
+
+.contactUsBgLeft {
+    background-color: #78909C;
+    max-width: 70%;
+    min-width: 10rem;
+    min-height: 10rem;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.contactUsBgLeft i {
+    font-size: 2rem;
+    color: #EEEEEE;
+}
+
+.contactUsBgLeft span {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* ******************** */
+
+.formHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+/* -----------------------------------------------------------------------------------  */
+/* ----------------------------------------------------------------------------------- */
+
+/* footer */
+
+.footerBgImg {
+    display: grid;
+    place-items: center;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(https://rare-gallery.com/mocahbig/36467-Fantasy-Book-HD-Wallpaper.jpg);
+    height: 60vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.FooterBgBlackBg {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    opacity: 0.70;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* left: 0 !important; */
+    height: 100%;
+    width: 100vw;
+    /* z-index: 2; */
+}
+
+.FooterContent {
+    left: 0 !important;
+    /* background-color: aqua;  */
+    width: 100%;
+    color: white;
+    position: absolute;
+}
+
+.footerLogo{
+    height: 10rem;
+    width: 10rem;    
+}
+.footerCompanyName{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.footerTagline{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.footerLeftDetails{
+    line-height: 20px;
+}
+
+.footerLinkHeader{
+    font-size: 1.3rem;
+}
+
+.linkFooter{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+    color: white;
+}
+.linkFooter:hover{
+    color: #FFDF00;
+    font-size: 1.2rem;
+}
+
+.footerRightDetails{
+    color: white;
+    font-weight: bold;
+}
+
+.footerRightDetails i{
+font-size: 2rem;
+}
+.rightfooterheader{
+    font-size: 1.1rem;
+}
+.rightfooterdesc{
+    font-size: 0.6rem;
+}
+
+
+
+.copyright{
+        font-weight: bold;
+        letter-spacing: 1px;
+}

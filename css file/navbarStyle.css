@@ -1,0 +1,182 @@
+.top_bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  /* z-index: 1; */
+  margin: 0;
+  width: 100vw;
+  /* background-color: black; */
+  background-image: url(../wallpaperTop/background-tree-book-wallpaper-preview.jpg);
+  animation-name: headerTopBg;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+
+/* .top_bg::before {
+    position: absolute;
+    content: " ";
+    background-image: url(../wallpaperTop/background-tree-book-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    animation-name: headerTopBg;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+} */
+
+.blackBG {
+  position: absolute;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* z-index: 2; */
+}
+
+.topContent {
+  left: 0 !important;
+  /* background-color: aqua; */
+  width: 100%;
+  color: white;
+  position: absolute;
+
+}
+
+
+@keyframes headerTopBg {
+  0% {
+    background-image: url("../wallpaperTop/background-tree-book-wallpaper-preview.jpg");
+  }
+
+  20% {
+    background-image: url("../wallpaperTop/bible-light-jesus-christ.jpg");
+  }
+
+  40% {
+    background-image: url("../wallpaperTop/jesus-god-holy-spirit-bible.jpg");
+  }
+
+  60% {
+    background-image: url("../wallpaperTop/time-decoration-lights-fairy-lights.jpg");
+  }
+
+  80% {
+    background-image: url("../wallpaperTop/library-ladders-candles-shelves-wallpaper-preview.jpg");
+  }
+
+  100% {
+    background-image: url("../wallpaperTop/school-books-young-adult-education.jpg");
+  }
+
+}
+
+/* ------------------------------------------------------------------- */
+/* navbar */
+
+.iconPosition {
+  z-index: 2;
+  top: 17vh;
+  position: fixed;
+}
+
+
+/* --------------------------------------------------- */
+.sidenav {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 60px;
+}
+
+
+.sidenav .nav {
+  position: relative;
+  /* display: flex; */
+  align-items: center;
+  z-index: 1000 !important;
+  left: 0px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+/* .sidenav .nav.active {
+        left: -10px;
+      } */
+
+.sidenav .navShort:hover {
+  left: -120px;
+  /* Border width*2 */
+}
+
+.sidenav .navLong:hover {
+  left: -300px;
+  /* Border width*2 */
+}
+
+.sidenav .description,
+.sidenav .icon {
+  height: 60px;
+  line-height: 44px;
+  background: #333;
+}
+
+.nav,
+.sidenav .icon {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.sidenav .icon {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  padding: 5px;
+}
+
+
+.sidenav .icon {
+  width: 4rem;
+  /* Width of navbar */
+  text-align: center;
+  color: #e9e9e9;
+  font-size: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.sidenav .description {
+  position: relative;
+  left: 60px;
+  color: #eee;
+  min-width: 300px;
+  padding-left: 20px;
+  height: 100%;
+  font-weight: bold;
+
+}
+
+
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
